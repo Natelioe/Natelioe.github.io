@@ -1,40 +1,41 @@
-body{
+body {
     background-color:#275950;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.assignment{
-
+.assignments {
     display:flex;
-    padding:10px;
-    background-color: #41BFB3;
-    margin:10px;
-    border-radius: 10px;
+    flex-wrap:wrap;
 }
 
-.assignment img{
-
+.assignment {
+    padding:10px;
     margin:10px;
+    width: 22%;
+    background: #41BFB3;
+    border-radius:5px;
+    margin-bottom: 25px;
+}
+
+.assignment img {
     width:200px;
-    border:4px solid #260101;
+    border: 4px solid #260101;
+    margin-right:20px;
+    border-radius:5px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
-    color:#41BFB3;
-    text-align: center;
-    
+    color: #41BFB3;
+    text-align:center;
 }
 
-.assignment img:hover{
-    border: 4px solid red ;
-
-}
-
-a{
+a {
     text-decoration:none;
-    color:#260101;
+    color:black;
 }
 
-a:hover{
+.assignment a:hover {
     color: red;
 }
